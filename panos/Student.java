@@ -9,6 +9,7 @@ public class Student {
 
     public Student(String name, List<String> courses){
         this.name = name;
+        // reference types need a copy
         this.courses = new ArrayList<>(courses);
     }
 
